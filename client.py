@@ -1,9 +1,9 @@
 import requests
 import os
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://lazy-birds-follow.loca.lt/predict"
 # Thay đổi tên file tương ứng với 2 ảnh test của bạn
-TEST_IMAGES = ["test_images/dog.webp", "test_images/cat.png"]
+TEST_IMAGES = ["test_images/tree.jpeg", "test_images/a.png", "test_images/dua.jpeg"]  
 
 def test_api():
     for image_path in TEST_IMAGES:
