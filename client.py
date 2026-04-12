@@ -21,5 +21,10 @@ def test_api():
         else:
             print(f"[-] Lỗi {response.status_code}: {response.text}\n")
 
+<<<<<<< HEAD
 if __name__ == "__main__":
     test_api()
+=======
+if __name__ == "__main__":  
+    test_api()
+>>>>>>> 17f4ab5 (chore: change URL)
