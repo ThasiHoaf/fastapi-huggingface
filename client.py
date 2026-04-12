@@ -1,7 +1,7 @@
 import requests
 import os
 
-API_URL = "https://lazy-birds-follow.loca.lt/predict"
+API_URL = "http://0.0.0.0:8000/predict"
 
 TEST_IMAGES = ["test_images/tree.jpeg", "test_images/a.png", "test_images/dua.jpeg"]  
 
