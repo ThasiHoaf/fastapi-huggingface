@@ -14,7 +14,7 @@
 1. Clone repository này về máy:
    ```bash
    git clone [URL_GITHUB_CUA_BAN]
-   cd lab1-fastapi-huggingface
+   cd fastapi-huggingface
    ```
 
 2. Cài đặt các thư viện cần thiết:
@@ -31,13 +31,14 @@
 ### Hướng dẫn gọi API
 1. Sử dụng cURL, Postman hoặc chạy script client.py đã cung cấp sẵn.
     ```bash
-        curl -X POST "http://localhost:8000/predict" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F file=@test_images/dog.webp;type=image/webp"
+        curl -X POST "http://localhost:8000/predict" -H "accept: application/json" -H "Content-Type: multipart/form-data" -F "file=@test_images/dua.jpeg;type=image/jpeg"
     ```
 Hoặc
 
-2. Sử dụng Pinggy để tạo đường liên kết để có thể chạy ở local nếu ứng dụng đang chạy ở colab
+2. Sử dụng Pinggy để tạo đường liên kết đến server để có thể chạy ở local nếu ứng dụng đang chạy ở máy khác
     ```bash
         !npm install -g localtunnel !lt --port 8000
     ```
 
-# fastapi-huggingface
+### Video Huong dan
+[Link](https://drive.google.com/file/d/1bNIiOO7xJ1Ecsi7rJO6gaznTYfaJ000H/view?usp=sharing)
